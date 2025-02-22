@@ -19,7 +19,7 @@ port=<PORT>
 ## Log variables
 ################
 logFile=/var/log/piholeFlushScript.log # Log file for all of the standard output from the curl command run by this script.
-errorsLog=/var/log/piholeFlushScript_errors.log # Log file for all of the ____ output from the curl command run by this script.
+errorsLog=/var/log/piholeFlushScript_errors.log # Log file for all of the standard error from the curl command run by this script.
 
 ############
 ## SCRIPT ##
