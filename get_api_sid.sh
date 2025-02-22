@@ -8,4 +8,4 @@ $(which curl) -k --dump-header $outputFile -X POST http://$server:$port/api/auth
 1>>/dev/null \
 2>>/dev/null
 
-$(which grep) sid $outputFile
+$(which grep) sid $outputFile | $(which awk) -F';' '{print $1}' | $(which awk) '{print $2}'
