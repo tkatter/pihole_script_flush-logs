@@ -18,7 +18,7 @@ This repository contains two scripts: *get_api_sid.sh* and *piholeFlush.sh*. The
 I wrote this script because as of right now, I do not need Pi-hole's DNS logs any more than the last 24-hours. Therefore, the DNS logs simply take up space on my disk (I know it's not taking up Gigabytes, but still, they are taking up disk space). I have been manually flushing my DNS logs whenever I could remember to do so, and I would often forget. That is why I wrote this script, so that I could make sure my DNS logs are automatically flushed every 24 hours and prevent a build-up of unnecessary, outdated, DNS logs.
 
 ## Usage
-### Prerequisits
+### Prerequisites
 #### Pi-hole Web interface configuration
 #### Packages
 The following is a list of packages used in the scripts that should be installed on your system:
