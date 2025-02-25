@@ -22,9 +22,10 @@ I wrote this script because as of right now, I do not need Pi-hole's DNS logs an
 #### Pi-hole Web interface configuration
 #### Packages
 The following is a list of packages used in the scripts that should be installed on your system:
-* curl
+* curl 
 * grep
 * awk
 * sed
+You can check to see if each package is installed by running `which <package>`. If not installed, run `sudo apt install <package>`
 ### *get_api_sid.sh*
 ### *piholeFlush.sh*
