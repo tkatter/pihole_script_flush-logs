@@ -26,6 +26,7 @@ The following is a list of packages used in the scripts that should be installed
 * grep
 * awk
 * sed
+
 You can check to see if each package is installed by running `which <package>`. If not installed, run `sudo apt install <package>`
 ### *get_api_sid.sh*
 ### *piholeFlush.sh*
